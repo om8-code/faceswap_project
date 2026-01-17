@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App data (don’t commit generated images/db)
+app/data/
+*.sqlite3
+
+# Logs
+*.log

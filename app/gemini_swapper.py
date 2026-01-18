@@ -4,8 +4,10 @@ import logging
 import os
 from pathlib import Path
 from typing import Optional, Tuple
-
+from dotenv import load_dotenv
 import requests
+
+load_dotenv()
 
 # --------------------------
 # Logging setup
